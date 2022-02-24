@@ -1,0 +1,135 @@
+@import url(rezet.css);
+@keyframes radius{
+    100%{
+        transform: scale(2);
+        opacity: 0.2;
+    }
+}
+@keyframes shb{
+    0%{
+        color: red;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color: yellow;
+    }
+}
+.wrap {
+    min-width: 1300px;
+    margin: 0 auto;
+   
+    
+}
+.bosh{
+    position: sticky;
+    top: 0px;
+    padding: 15px;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 50px;
+    animation-name: shb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+}
+.meniu{
+    text-align: center;
+    background-color: lightgray;
+}
+.shb1{color:green ;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    max-width: 1000;
+    text-align: center;
+}
+.shb{
+    color: green;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.asos{
+    
+    display: flex;
+    column-gap: 20px;
+    padding: 25px 0px;
+}
+.tavar {
+    width: calc(30% - 10px);
+    box-shadow: 0px 0px 5px  gray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+.rasm {
+    height: 200px;
+    margin-bottom: 20px;
+}
+.rasm img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.nom {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.matn {
+    font-size: 18px;
+    padding: 20px;
+}
+.narx{
+    color: goldenrod;
+    font-weight: bold;
+    font-style: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.shb3{
+    text-align: center;
+    left: 70%;
+    margin-bottom: 10%;
+}
+.shb3{
+    font-size: 34px;
+    
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+    margin-bottom: 80px;
+    cursor: pointer;
+    position: relative;
+    padding: 5px; 
+}
+.shb3::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    border: 2px solid red; 
+    animation: radius 2s ease-in-out  infinite;
+}
+
+
+
+
+
+
+

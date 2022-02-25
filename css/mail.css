@@ -129,6 +129,13 @@
 .meniu:active{
     color: red;
 }
+.shb3:hover{
+    animation-play-state: paused;
+}
+.shb3:active{
+color: red;}
+    
+
 
 
 

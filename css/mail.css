@@ -126,6 +126,9 @@
     border: 2px solid red; 
     animation: radius 2s ease-in-out  infinite;
 }
+.meniu:active{
+    color: red;
+}
 
 
 
